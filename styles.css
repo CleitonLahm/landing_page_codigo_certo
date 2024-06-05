@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #222222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c2c2c;
+  color: #fff;
+  height: 60px;
+}
+
+.navbar img {
+  height: 100px;
+  margin-top: 8px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #e53939;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-left: 1px solid #444;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #e53939;
+}
+
+.contact a i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); 
+}
+
+main .content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+main .text {
+  max-width: 350px;
+}
+
+main h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+main p {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+main .title_pt1 {
+  color: #fff;
+}
+
+main .title_pt2 {
+  color: #e53939;
+}
+
+input {
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  margin-bottom: 6px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+main .send {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  padding: 3px;
+  background-color: #e53939;
+  color: #fff;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+main .send:hover {
+  background-color: #ce1515;
+}
+
+main .site {
+  color: #fff;
+  font-size: 8px;
+}
+
+.main-image {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq {
+  padding: 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+  background-color: #555;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background-color: #222;
+  border-top: 1px solid #444;
+  font-size: 12px;
+}
+
+.faq-answer p {
+  margin: 0;
+}
