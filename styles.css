@@ -14,6 +14,10 @@ body {
   margin-top: 60px;
 }
 
+section {
+  scroll-margin-top: 80px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -207,7 +211,7 @@ main .site {
 .about {
   padding: 30px;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 40px auto;
   background-color: #2c2c2c;
   border-radius: 10px;
   color: #fff;
@@ -227,7 +231,7 @@ main .site {
 .services {
   padding: 30px;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 40px auto;
   background-color: #2c2c2c;
   border-radius: 10px;
   color: #fff;
@@ -251,4 +255,18 @@ main .site {
 .service p {
   font-size: 12px;
   color: #fff;
+}
+
+footer {
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  color: #ce1515;
 }
