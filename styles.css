@@ -65,15 +65,16 @@ section {
 .contact a {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #e0e0e0;
   text-decoration: none;
   font-weight: 500;
-  font-size: 12px;
-  transition: color 0.3s;
+  font-size: 14px;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .contact a:hover {
   color: #e53939;
+  transform: scale(1.1);
 }
 
 .contact a i {
@@ -126,7 +127,7 @@ input {
   border-radius: 5px;
   width: 160px;
   margin-bottom: 6px;
-  padding: 3px;
+  padding: 8px;
   font-size: 12px;
 }
 
@@ -134,18 +135,19 @@ main .send {
   display: block;
   border: none;
   border-radius: 5px;
-  width: 80px;
-  padding: 3px;
+  width: 100px;
+  padding: 8px;
   background-color: #e53939;
   color: #fff;
   margin-bottom: 8px;
-  transition: 0.3s;
-  font-size: 12px;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 14px;
   cursor: pointer;
 }
 
 main .send:hover {
   background-color: #ce1515;
+  transform: scale(1.05);
 }
 
 main .site {
@@ -185,6 +187,7 @@ main .site {
   color: #fff;
   padding: 10px;
   border: none;
+  border-radius: 5px;
   text-align: left;
   font-size: 14px;
   cursor: pointer;
@@ -202,6 +205,8 @@ main .site {
   background-color: #222;
   border-top: 1px solid #444;
   font-size: 12px;
+  border: none;
+  border-radius: 5px;
 }
 
 .faq-answer p {
